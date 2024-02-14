@@ -1,11 +1,11 @@
 const alternatives = [
-    {text:"", image:"images/cat-01.gif"},
-    {text:"I promise it will be unforgettable", image:"images/cat-02.gif"},
-    {text:"Think again", image:"images/cat-03.gif"},
-    {text:"Come on, dare to say yes", image:"images/cat-04.gif"},
-    {text:"Don't let fear stop you", image:"images/cat-05.gif"},
+    {text:"", image:"cat-01.gif"},
+    {text:"I promise it will be unforgettable", image:"cat-02.gif"},
+    {text:"Think again", image:"cat-03.gif"},
+    {text:"Come on, dare to say yes", image:"cat-04.gif"},
+    {text:"Don't let fear stop you", image:"cat-05.gif"},
 ]
-const ohyes = {text:"I knew you would accept", image:"images/cat-yes.gif"}
+const ohyes = {text:"I knew you would accept", image:"cat-yes.gif"}
 const cat = document.querySelector('.cat')
 const text = document.querySelector('.text')
 const buttons = document.querySelectorAll('.button')
